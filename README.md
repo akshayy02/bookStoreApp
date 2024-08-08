@@ -4,6 +4,11 @@ This is a MERN stack application for browsing and reading books online.
 It features a responsive design, a catalog of multiple books, and tiered access for
 free and premium content. Users can register, log in, and access premium books securely.
 
+#Technologies Used
+Frontend: React.js, Tailwind CSS
+Backend: Node.js, Express.js
+Database: MongoDB
+
 Instructions to Run:
 
 1. Clone the repository:
