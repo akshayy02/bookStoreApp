@@ -39,7 +39,7 @@ function Signup() {
   };
   return (
     <>
-      <div className="flex h-screen items-center justify-center">
+      <div className="flex h-screen items-center justify-center text-black">
         <div className=" w-[600px] ">
           <div className="modal-box">
             <form onSubmit={handleSubmit(onSubmit)} method="dialog">
@@ -108,15 +108,13 @@ function Signup() {
                   Signup
                 </button>
                 <p className="text-xl">
-                  Have account?{" "}
+                  Have account? {" "}
+                  <Link to="/">
                   <button
                     className="underline text-blue-500 cursor-pointer"
-                    onClick={() =>
-                      document.getElementById("my_modal_3").showModal()
-                    }
                   >
                     Login
-                  </button>{" "}
+                  </button></Link>{" "}
                   <Login />
                 </p>
               </div>
