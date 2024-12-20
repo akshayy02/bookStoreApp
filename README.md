@@ -1,0 +1,46 @@
+Online Bookstore Application
+
+The Online Bookstore Application is a full-stack MERN project featuring JWT-based authentication with distinct user and admin roles.
+Users can explore books, manage favorites, and add items to a cart, while admins can manage book data. The application also includes
+an order management system, ensuring a seamless shopping experience. 
+
+
+#Technologies Used
+
+Frontend: React.js, Tailwind CSS
+
+Backend: Node.js, Express.js
+
+Database: MongoDB
+
+
+Instructions to Run:
+
+1. Clone the repository:
+   git clone repo_url
+   cd bookStoreApp
+
+2. Install dependencies:
+
+   For the backend:
+   cd Backend
+   npm install
+
+   For the frontend:
+   cd Frontend
+   npm install
+
+3. Set up environment variables:
+   Create a .env file in the backend directory 
+
+4. Run the application:
+
+   Backend:
+   cd Backend
+   npm start
+
+   Frontend:
+   cd Frontend
+   npm run dev
+
+5. Access the application at http://localhost:5173
